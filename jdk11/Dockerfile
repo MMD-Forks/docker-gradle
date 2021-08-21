@@ -1,4 +1,4 @@
-FROM adoptopenjdk:8-jre-openj9
+FROM eclipse-temurin:11-jdk
 
 CMD ["gradle"]
 
