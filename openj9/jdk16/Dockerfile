@@ -20,13 +20,19 @@ WORKDIR /home/gradle
 
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
+        curl \
         fontconfig \
+        sudo \
         unzip \
         wget \
+        zip \
         \
         bzr \
+        cvs \
         git \
+        git-cvs \
         git-lfs \
+        git-svn \
         mercurial \
         openssh-client \
         subversion \
